@@ -12,12 +12,12 @@
 <body>
  <header>
      <h1> South Canterbury's Premier Wildlife Park</h1>
-     <header
- <nav>
-        <a class="active" href="index.html"> <i class="fa-solid fa-house"> </i> Home</a>
-        <a href="AfricanArea.html"> African Area </a>
-        <a href="AmericanArea.html"> American Area </a>
-        <a href="ArcticArea.html"> Artic Area </a>
+     </header>
+<nav>
+       <a class="active" href="index.html"> Home</a>
+       <a href="AfricanArea.html"> African Area </a>
+       <a href="AmericanArea.html"> American Area </a>
+       <a href="ArcticArea.html"> Artic Area </a>
    </nav>
    <main>
     <h2>Welcome to South Canterbury's Premier Wildlife Park!
@@ -83,10 +83,25 @@
     font-family: 'Quicksand', sans-serif;
   }
   body {
-    background-color: #eee0cb
+    display: grid;
+    grid:
+      " h  h  n" auto
+      " m   m   m" auto
+      " f  f   f " auto
+      / auto auto auto;
+    background-color: rgb(250, 242, 209);
+  }
+
+  header {
+    grid-area: h;
+  }
+  main {
+    grid-area: m;
+  }
+  footer {
+    grid-area: f;
   }
   .active {
     color: rgb(229, 213, 213);
-    background-color: #baa898;;
-  }
-</style>
+    background-color: #baa898;
+   } </style>
