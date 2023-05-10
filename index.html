@@ -101,6 +101,23 @@
   }
   footer {
     grid-area: f; */
+    display: grid;
+    grid:
+      " h  h  n" auto
+      " m   m   m" auto
+      " f  f   f " auto
+      / auto auto auto;
+    background-color: #86627f;
+  }
+
+  header {
+    grid-area: h;
+  }
+  main {
+    grid-area: m;
+  }
+  footer {
+    grid-area: f;
   }
   .active {
     /* color: rgb(229, 213, 213);
