@@ -54,6 +54,8 @@
     /* font-family: 'Proza Libre', sans-serif;
     color: #baa898;
     text-shadow: 3px 3px #7d5b55; */
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
     }
   a {
     text-decoration: none;
@@ -103,9 +105,9 @@
     grid-area: f; */
     display: grid;
     grid:
-      " h  h  n" auto
-      " m   m   m" auto
-      " f  f   f " auto
+      " h  n  n" auto
+      " h   m   m" auto
+      " h  f   f " auto
       / auto auto auto;
     background-color: #86627f;
   }
@@ -122,4 +124,5 @@
   .active {
     /* color: rgb(229, 213, 213);
     background-color: #baa898; */
-   } </style>
+   } 
+     </style>
