@@ -1,0 +1,122 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+      <h1> Arctic Area </h1>
+    </header>
+    <nav>
+      <a class="active" href="index.html"> Home</a>
+      <a href="AfricanArea.html"> African Area </a>
+      <a href="AmericanArea.html"> American Area </a>
+      <a href="ArcticArea.html"> Artic Area </a>
+    </nav>
+    <main>
+      <h2> Explore the Enchanting Arctic Tundra
+      </h2>
+      <p>Embrace the chill and journey to the frozen wonders of the Arctic, where you'll encounter some of the world's most remarkable cold-weather inhabitants. Our Arctic area features the awe-inspiring polar bear, the cunning arctic fox, and the charming fur seal, each perfectly adapted to life in the icy tundra.
+      </p>
+      <p>Witness these magnificent animals in action, as you learn about their unique adaptations, survival strategies, and the challenges they face in a rapidly changing environment. Take part in our interactive presentations, meet our dedicated team of Arctic experts, and gain a deeper appreciation for the incredible creatures that call the Arctic home.
+      </p>
+      <div>
+        <img src="arctic-fox-3-teresa.jpg" alt="Image of inside of School" />
+        <img src="elephant-2-zoe-reeve.jpg" alt="Image of outside of school" />
+        <img src="lion-1-jeremy-avery.jpg" alt="Image of students working" />
+      </div>
+    </main>
+    <footer>
+      <p>&copy; Adeeba Yoosuf 2023</p>
+    </footer>
+    <style>
+      img {
+        width: 27rem;
+        height: 30rem;
+        display: flex;
+        border: 4px solid;
+        border-color: #878ee4;
+        border-radius: 10%;
+      }
+  
+      div {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        gap: 30;
+        margin-top: 3.5rem;
+      }
+  
+      h1 {
+        font-size: 5rem;
+        color: #fffdfc;
+        font-family: 'Fjalla One', sans-serif;
+        writing-mode: vertical-rl;
+        transform: rotate(-180deg);
+        margin-top:15rem;
+        margin-right: 4rem;
+      }
+  
+      a {
+        text-decoration: none;
+        color: #878ee4;
+        border: 1px solid #878ee4;
+        border-radius: 1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        flex-direction: column;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 1.5em;
+        background-color: rgb(228, 245, 248);
+      }
+  
+      a:hover {
+        color: rgb(229, 213, 213);
+        background-color: #fffdfc;
+        font-size: large;
+      }
+  
+      h2 {
+        color: #fffdfc;
+        font-size: 2em;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+        margin-right: 3rem;
+        text-shadow: 2px 2px #878ee4;
+      }
+  
+      p {
+        color: #fffdfc;
+        font-family: 'Lato', sans-serif;
+        font-size: large;
+      }
+  
+      body {
+        background-color: #b2cfd4;
+        display: grid;
+        grid:
+          " h  n  n" auto " h   m   m" auto " h  f   f " auto / auto auto auto;
+      }
+  
+      header {
+        grid-area: h;
+        background-color: #686c99;
+        margin-right: 4rem;
+      }
+  
+      main {
+        grid-area: m;
+      }
+  
+      footer {
+        grid-area: f;
+      }
+    </style>
